@@ -1,0 +1,4 @@
+----
+Estructura SQL software -----
+
+CREATE TABLE `db_inventario_ur`.`software` (`id_software` INT NOT NULL AUTO_INCREMENT , `version` INT(30) NOT NULL , `instalationKey` INT(15) NOT NULL , `cantLincencias` INT(10) NOT NULL , `vigenias` INT(10) NOT NULL , `id_equipo` INT(10) NOT NULL , `id_proveedor` INT(10) NOT NULL , PRIMARY KEY (`id_software`)) ENGINE = InnoDB;

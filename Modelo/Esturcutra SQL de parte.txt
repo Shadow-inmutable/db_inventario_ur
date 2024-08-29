@@ -1,0 +1,3 @@
+---------------Estructura  db_ SQL de parte---------------
+
+CREATE TABLE `db_inventario_ur`.`parte` (`id_parte` INT(10) NOT NULL AUTO_INCREMENT , `serial` INT(15) NOT NULL , `marca` INT(10) NOT NULL , `modelo` INT(15) NOT NULL , `tipo` INT(15) NOT NULL , `fecha_compra` INT(20) NOT NULL , `garantia` INT(50) NOT NULL , `id_equipo` INT(10) NOT NULL , `id_proveedor` INT(10) NOT NULL , PRIMARY KEY (`id_parte`)) ENGINE = InnoDB;
